@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import {Button} from 'react-bootstrap';
+
 
 
 //parent
@@ -11,6 +13,9 @@ function App() {
         <h1>This is my parent Component</h1>
         <SecondComponent />
         <FourthComponent/>
+        <div className='App'>
+          {/* <Button variant='primary' className='mr-2'>Primary</Button> */}
+        </div>
       </div>
   
   );

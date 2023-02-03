@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EmployeeIdProps from './EmployeeIdProps';
+import ButtonCounter from './ButtonCounter';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <EmployeeIdProps name='vinoth' id={7624}/>
+    <ButtonCounter />
   </React.StrictMode>
 );
 

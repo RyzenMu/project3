@@ -36,9 +36,10 @@ class EmployeeIdProps extends React.Component {
             <div>
         <h2 style={{color: this.state.color}}> My employee id no is {this.props.id}</h2>
         <h2> My employee name  is {this.props.name}</h2>
-        <button onClick={() => this.onClick()}>Click some were</button>
+        <button onClick={() => this.onClick().bind(this)}>Click some were</button>
         <h2>id is {this.state.id}</h2>
         <h2>name is {this.state.name}</h2>
+        
 
         <EmployeeIdProps1 name='jhajh' id = {54871} skill='Java Developer' otherSkills='Spring Boot'/>
 
